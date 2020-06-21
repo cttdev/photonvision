@@ -43,7 +43,7 @@ public class ColoredShapePipeline
     private CVPipeResult<List<TrackedTarget>> targetList;
     private final Point[] rectPoints = new Point[4];
 
-    ColoredShapePipeline() {
+    public ColoredShapePipeline() {
         settings = new ColoredShapePipelineSettings();
     }
 
