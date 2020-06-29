@@ -144,7 +144,9 @@ public class TestUtils {
         return getPowercellPath().resolve(image.path);
     }
 
-    public static Path getDotBoardImagesPath(){return getResourcesFolderPath().resolve("calibrationBoardImages");}
+    public static Path getDotBoardImagesPath() {
+        return getResourcesFolderPath().resolve("calibrationBoardImages");
+    }
 
     public static void loadLibraries() {
         try {
